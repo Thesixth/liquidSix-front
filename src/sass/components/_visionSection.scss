@@ -1,0 +1,17 @@
+.vision {
+    padding: $margin-medium;
+    min-height: 30vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: $color-primary;
+    p , h2{
+       font-style: italic;
+       text-align: center;
+        margin: $margin-small;
+    }
+    .col-md-8 {
+        align-items: center;
+    }
+}

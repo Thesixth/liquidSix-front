@@ -1,0 +1,44 @@
+#reserve{
+    background-color: $color-black;
+    color: $color-primary;
+    justify-content: center;
+    align-items: center;
+    h3 {
+        font-size: $default-font-size*1.5;
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: $margin-medium;
+    }
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+#reserve > div {
+    padding: $margin-medium;
+
+}
+
+.form{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 0 auto;
+    input {
+        justify-self: center;
+        border: none;
+        border-bottom: 2px solid #000;
+        box-shadow: none;
+        margin: 0 auto;
+        width: 50%;
+        font-size: d$default-font-size;
+
+    }
+    .reserve-btn {
+        margin: 0;
+        margin-top: $margin-small;
+        padding: 5px;
+        background-color: $color-secondary-light;
+    }
+}

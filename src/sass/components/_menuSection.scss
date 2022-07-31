@@ -1,0 +1,57 @@
+.menuSection {
+    position: relative;
+    padding: $margin-medium;
+    text-align: center;
+    justify-content: center;
+    ul {
+        padding: 0;
+    }
+
+    img {
+        min-height: 300px;
+        width: 100%;
+       height: 100%;
+        object-fit: cover;
+    }
+
+  
+
+    .menu-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        .video {
+            height: 100%;
+      width: 100%;
+      object-fit: cover;
+        }
+    }
+}
+
+.card-image-div {
+    max-height: 300px;
+}
+
+.main-menu {
+    width: 100%;
+    margin: 0 auto;
+    justify-self: center;
+    opacity: .7;
+    h1{
+        color: $color-white;
+        padding: $margin-medium;
+    }
+    .card{
+        overflow: hidden;
+    }
+    .sale {
+        margin: $margin-small;
+    }
+   .align {
+    display: flex;
+    align-items: center;
+   }
+}

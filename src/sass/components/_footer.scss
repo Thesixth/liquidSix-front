@@ -1,0 +1,33 @@
+.footer {
+
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    color: $color-primary;
+    padding-top: $margin-big;
+    padding-bottom: $margin-big;
+    ul {
+        list-style: none;
+    }
+    li {
+        padding: $margin-small;
+    }
+    a {
+        text-decoration: none;
+        color: $color-primary;
+
+    }
+    h4{
+        font-size: $default-font-size *1.5;
+    }
+    
+    .address > * {
+        padding: $margin-small;
+    }
+
+    .bran-name h4 {
+        padding: $margin-medium;
+        font-size: $default-font-size *3;
+        transform: skewY(20deg);
+    }
+}

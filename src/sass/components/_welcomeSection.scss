@@ -1,0 +1,88 @@
+#welcome {
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+    z-index: 2;
+    color: $color-white;
+    background-color: $color-white;
+    overflow: hidden;
+
+    img {
+        animation: cardMoveIn 2s ease;
+    }
+    h1 {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        animation: moveInRight 3s linear ;
+        font-size: $default-font-size;
+        em {
+            transform: skew(50deg, 10deg);
+            font-size: $default-font-size *2;
+            font-weight: 600;
+        }
+    }
+}
+
+
+@keyframes cardMoveIn {
+    0% {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+    
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    margin: auto;
+    color: $color-primary;
+    font-size: $default-font-size *3;
+    animation: blink 2s linear infinite;
+}
+
+.blink {
+    width: 220px;
+    height: 50px;
+    background-color: #342ab8;
+    padding: 10px;
+    text-align: center;
+    line-height: 50px;
+  }
+ 
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(10rem);
+    }
+  
+    80% {
+      transform: translateX(-1rem);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
